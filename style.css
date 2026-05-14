@@ -1,0 +1,63 @@
+ body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(79, 13, 92);
+     
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: space-evenly;
+     list-style-type: none;
+     padding: 0;
+ }
+
+ nav ul li {
+     margin: 10px 20px 10px 20px;
+     background-color: rgb(193, 120, 228);
+     padding: 10px;
+     border: 5px ridge rgb(215, 137, 235);
+     border-radius: 10px;
+     transition: 0.5;
+ }
+
+ nav ul li:hover {
+     background-color: rgb(184, 127, 199);
+     margin: 0px;
+     padding: 10px 30px 10px 30px;
+     transition: 0.5s;
+ }
+
+ article {
+     background-color: rgb(220, 160, 255);
+     width: 75%;
+     border-width: 5px;
+     border-style: ridge;
+     border-color: rgb(207, 58, 157);
+     border-radius: 50px;
+     padding: 25px;
+ }
+
+ #cookie{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: rgb(79, 13, 92);
+
+ }
+ #cookiehome  nav ul li {
+     margin: 10px 20px 10px 20px;
+     background-color: rgb(67, 9, 73);
+     padding: 10px;
+     border: 5px ridge rgb(37, 10, 37);
+     border-radius: 10px;
+     transition: 0.5;
+
+    }
+    p {
+        font-size: 20px;
+        color: rgb(151, 50, 121);
+    }
+    h2{ color: rgb(99, 24, 99);}
+    h1{ color: rgb(156, 85, 156);}
